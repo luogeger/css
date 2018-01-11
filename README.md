@@ -3,10 +3,10 @@
 ## 第二章 需提前了解的术语和概念
 
 ## 第三章 流、元素、与基本尺寸
-### 块级元素
-### width/height 作用的具体细节
-### min-width/max-width 和 min-height/max-height
-### 内联元素
+- 块级元素
+- width/height 作用的具体细节
+- min-width/max-width 和 min-height/max-height
+- 内联元素
 
 ## 第四章 盒尺寸的四大家族
 
