@@ -1,0 +1,32 @@
+@charset "utf-8";
+// 定义变量
+// mixin
+//include
+
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+
+#header {
+  color: @light-blue;
+}
+
+
+// mixin
+.border-radius-top (@val: 3px;) {
+  border-top-left-radius: @val;
+}
+
+.clearfix () {
+  display: block;
+  zoom: 1;
+  content: " ";
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#app{
+  .border-radius-top(5px);
+  .clearfix();
+}
